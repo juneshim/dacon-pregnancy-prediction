@@ -16,9 +16,11 @@
     
     즉, **상관관계**는 **인과관계**가 성립되기 위한 하나의 필요조건일 뿐이다.
     
-    ![1.png](%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B3%E1%86%AB%20(1)%20df135a3c64e540598d44bee10f2931c9/1.png)
-    
-    ![2.png](%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B3%E1%86%AB%20(1)%20df135a3c64e540598d44bee10f2931c9/2.png)
+ <img width="738" alt="1" src="https://github.com/user-attachments/assets/dc64b803-b1f0-4843-ad9c-913c66fcfb43" />
+
+<img width="738" alt="2" src="https://github.com/user-attachments/assets/f636add9-fefb-483d-ae3e-101c3305fa3d" />
+
+
     
 
 ---
@@ -28,7 +30,9 @@
     표준편차의 범위 or 데이터 변동성을 나타낸다. 즉, 데이터의 불확실성을 나타내는 그래프의 구성 요소. 
     오른쪽 그래프와 같이 에러바 내에 겹치는 부분이 있는 경우, 차이가 통계적으로 유의미하지 않다는 것을 알 수 있다.
     
-    ![Confidenceinterval.png](%E1%84%8C%E1%85%AE%E1%84%8B%E1%85%B3%E1%86%AB%20(1)%20df135a3c64e540598d44bee10f2931c9/Confidenceinterval.png)
+![Confidenceinterval](https://github.com/user-attachments/assets/44497d9c-9bcb-4aa0-891b-061ca6f7efc9)
+
+
     
 
 ---
