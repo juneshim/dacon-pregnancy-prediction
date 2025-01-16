@@ -27,7 +27,7 @@
     
     일반적으로 Classification을 많이 사용한다! 결국에는 정답 조합이 정해진 문제들이 많기 때문에~
     
-    ![3.png](notes_1%20e33cccf07a2045418686d238e154d66a/3.png)
+    ![3.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a95e808-2e96-46f7-9844-a181c2a0afbc/40c8c3f2-ee61-4923-939e-43f171e749ee/3.png)
     
 
 ---
@@ -64,7 +64,7 @@
     
     여기서 “선형” 뜻을 알아야 선형 함수를 이해할 수 있는데, 우선 직관적으로 선의 형태… 직선? ax + b? 로 생각할 수 있다. 틀린것은 아니지만, 2차원, 즉 입력변수가 한가지 일 때만 직선 형태이고, 다차원 공간에서는 **평면 또는 초평면** 형태를 띈다.
     
-    ![4.png](notes_1%20e33cccf07a2045418686d238e154d66a/4.png)
+    ![4.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/8a95e808-2e96-46f7-9844-a181c2a0afbc/3eb783fc-e3f2-4cdc-821f-da4f5c07b518/4.png)
     
     선형 회귀의 목표는 주어진 데이터를 기반으로 β₀과 β₁, β₂, ..., βₙ(회귀 계수)을 찾는 것이다.
     
