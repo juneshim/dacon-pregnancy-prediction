@@ -24,7 +24,7 @@ train\_sizes, train\_scores, val\_scores \= learning\_curve(
     cv=5,  
     n\_jobs=-1,  
     scoring='accuracy'  
-)![](images/image1.png)  
+)![](images/image15.png)  
 Accuracy: 0.7445  
 AUC-ROC: 0.7271  
 Precision: 0.5040  
@@ -106,7 +106,7 @@ train\_sizes, train\_scores, val\_scores \= learning\_curve(
     n\_jobs=-1,  
     scoring='accuracy'  
 )  
-![](images/image3.png)  
+![](images/image13.png)  
 Accuracy: 0.7107  
 AUC-ROC: 0.7279  
 Precision: 0.4381  
@@ -156,7 +156,7 @@ submission \= pd.DataFrame({
     'probability': test\_preds\_proba  \# 최적 임계값 적용된 결과 사용  
 })
 
-![](images/image4.png)
+![](images/image13.png)
 
 Accuracy: 0.7107  
 AUC-ROC: 0.7279  
@@ -176,7 +176,7 @@ XGBoost\_4에서 데이터전처리 변경
 점수:0.7284953752
 
 데이터셋 : X\_02 v3  
-![](images/image5.png)  
+![](images/image19.png)  
 Accuracy: 0.7112  
 AUC-ROC: 0.7269  
 Precision: 0.4384  
@@ -212,7 +212,7 @@ model \= xgb.XGBClassifier(
     random\_state=42,  
     verbosity=1  
 )  
-![](images/image6.png)  
+![](images/image23.png)  
 Accuracy: 0.7105  
 AUC-ROC: 0.7270  
 Precision: 0.4376  
@@ -248,7 +248,7 @@ model \= xgb.XGBClassifier(
     random\_state=42,  
     verbosity=1  
 )  
-![](images/image7.png)  
+![](images/image16.png)  
 Accuracy: 0.7374  
 AUC-ROC: 0.7291  
 Precision: 0.4786  
@@ -280,7 +280,7 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.9  
 )
 
-![](images/image8.png)
+![](images/image12.png)
 
 Accuracy: 0.7248  
 AUC-ROC: 0.7290  
@@ -314,7 +314,7 @@ model \= xgb.XGBClassifier(
     reg\_lambda=2.0,  
     scale\_pos\_weight=scale\_pos\_weight  
 )  
-![](images/image9.png)  
+![](images/image21.png)  
 Accuracy: 0.7115  
 AUC-ROC: 0.7290  
 Precision: 0.4398  
@@ -347,7 +347,7 @@ model \= xgb.XGBClassifier(
     reg\_lambda=3.5,  
     scale\_pos\_weight=scale\_pos\_weight \* 0.7  
 )  
-![](images/image10.png)  
+![](images/image1.png)  
 Accuracy: 0.7408  
 AUC-ROC: 0.7291  
 Precision: 0.4872  
@@ -377,7 +377,7 @@ model \= xgb.XGBClassifier(
     reg\_lambda=4.0,  
     scale\_pos\_weight=scale\_pos\_weight \* 0.75  
 )  
-![](images/image11.png)
+![](images/image22.png)
 Accuracy: 0.7391  
 AUC-ROC: 0.7291  
 Precision: 0.4828  
@@ -412,7 +412,7 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.7  
 )
 
-![](images/image12.png)  
+![](images/image20.png)  
 Accuracy: 0.7403  
 AUC-ROC: 0.7291  
 Precision: 0.4850  
@@ -446,8 +446,8 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.7  
 )
 
-![](images/image13.png)  
-![](images/image14.png) 
+![](images/image24.png)  
+![](images/image8.png) 
 Accuracy: 0.7410  
 AUC-ROC: 0.7290  
 Precision: 0.4880  
@@ -480,8 +480,8 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.7  
 )
 
-![](images/image15.png)  
-![](images/image16.png)
+![](images/image10.png)  
+![](images/image14.png)
 Accuracy: 0.7408  
 AUC-ROC: 0.7289  
 Precision: 0.4873  
@@ -515,7 +515,7 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.65  
 )
 
-![](images/image17.png) 
+![](images/image5.png) 
 ![](images/image18.png) 
 Accuracy: 0.7429  
 AUC-ROC: 0.7273  
@@ -551,7 +551,7 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.68  
 )
 
-![](images/image19.png) 
+![](images/image25.png) 
 Accuracy: 0.7420  
 AUC-ROC: 0.7290  
 Precision: 0.4913  
@@ -585,8 +585,8 @@ model \= xgb.XGBClassifier(
     scale\_pos\_weight=scale\_pos\_weight \* 0.72,  
     max\_delta\_step=1  
 )  
-![](images/image20.png)  
-![](images/image21.png)  
+![](images/image3.png)  
+![](images/image17.png)  
 Accuracy: 0.7398  
 AUC-ROC: 0.7288  
 Precision: 0.4844  
@@ -621,7 +621,7 @@ model \= xgb.XGBClassifier(
     grow\_policy='lossguide',  
     max\_leaves=32  
 )  
-![](images/image22.png)
+![](images/image9.png)
 
 ### XGBoost\_19
 
@@ -639,7 +639,7 @@ model \= xgb.XGBClassifier(
     reg\_lambda=3.2,  
     scale\_pos\_weight=scale\_pos\_weight \* 0.6  
 )  
-![](images/image23.png) 
+![](images/image11.png) 
 Accuracy: 0.7446  
 AUC-ROC: 0.7290  
 Precision: 0.5053  
@@ -667,7 +667,7 @@ model \= xgb.XGBClassifier(
     reg\_alpha=0.28,  
     reg\_lambda=3.2,  
     scale\_pos\_weight=scale\_pos\_weight \* 0.5  
-)![](images/image24.png)
+)![](images/image27.png)
 
 ### XGBoost\_21
 
@@ -684,7 +684,7 @@ model \= xgb.XGBClassifier(
     reg\_alpha=0.28,  
     reg\_lambda=3.2,  
     scale\_pos\_weight=scale\_pos\_weight \* 0.4  
-)![](images/image25.png)
+)![](images/image26.png)
 
 ### XGBoost\_22
 
@@ -702,7 +702,7 @@ model \= xgb.XGBClassifier(
     reg\_lambda=3.2,  
     scale\_pos\_weight=scale\_pos\_weight \* 0.6  
 )  
-![](images/image26.png)Accuracy: 0.7441  
+![](images/image6.png)Accuracy: 0.7441  
 AUC-ROC: 0.7283  
 Precision: 0.5006  
 Recall: 0.1243  
@@ -732,7 +732,7 @@ model \= xgb.XGBClassifier(
     min\_child\_weight= 8,   
     gamma= 0.4384837611891634,   
     scale\_pos\_weight= 0.3027455093707247  
-)![](images/image27.png)  
+)![](images/image4.png)  
 Accuracy: 0.7440  
 AUC-ROC: 0.7215  
 Precision: 0.5333  
@@ -748,7 +748,7 @@ Optimized F1 Score: 0.4866
 
 시간: 17분 39초
 
-X\_02를 5만개 샘플링 하여 Optuna를 사용한 하이퍼파라미터 최적화 해서 적용![](images/image28.png)  
+X\_02를 5만개 샘플링 하여 Optuna를 사용한 하이퍼파라미터 최적화 해서 적용![](images/image7.png)  
 Accuracy: 0.7439  
 AUC-ROC: 0.7265  
 Precision: 0.4286  
