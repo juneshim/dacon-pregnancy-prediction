@@ -6,7 +6,7 @@ https://dacon.io/competitions/official/236452/overview/description
 ### 👥 팀 소개
 팀명: AI가 되.
 팀원: 👤 GitHub: [jwendykim](https://github.com/jwendykim), 👤 GitHub: [juneshim](https://github.com/juneshim)
-, 👤 GitHub: [juneshim](https://github.com/juneshim)
+, 👤 GitHub: 임성민
 ### 📅 기간
 2025.02.01 ~ 2025.02.27
 ### 🏆 최종 성과
